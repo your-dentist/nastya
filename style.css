@@ -1,0 +1,138 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:900);
+		
+*, *:after, *:before {
+  
+	box-sizing: border-box; 
+	
+}
+
+
+
+.tweets {
+			
+	width: 100%;
+	height: auto;
+			
+	position: absolute;
+				
+	top: 180px;
+	left: 540px;
+				
+	margin: 0;
+			
+	font-size: 1.4em;
+				
+	z-index: 1;
+
+				
+}
+			
+.mentions {
+			
+	color: rgb(200, 200, 200);
+			
+	font-family: 'Lato';
+	text-align: center;
+				
+	padding-left: 5px;
+				position: absolute;
+				
+	top: 700px;
+	left: 800px;	
+}
+
+
+
+@font-face {
+	font-family: Delicious;
+	src: url('blssd.otf');
+}
+@font-face {
+	font-family: loving;
+	src: url('love.ttf');
+}
+@import url(https://fonts.googleapis.com/css?family=Loved+by+the+King);
+
+@font-face {
+	font-family: "Loved by the King";
+}
+
+
+body
+{
+
+background-size:100%;
+background-image: url('./0fyYm17.jpg');
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: center center;
+/* background-color: black; */
+ 
+}
+
+#about
+{
+Margin: 10% 0% 0% 70%;
+}
+
+h1
+{
+text-shadow: #ff00de;
+color: #e6e3da;
+}
+
+#boy
+{
+width: 25%; margin: 0 auto; text-align: center;
+font-family: Loving;
+position: absolute;
+top:66%;
+left:25%;
+color: #9b3f5e;
+font-size:50px;
+}
+
+#girl
+{
+width: 25%; margin: 0 auto; text-align: center;
+font-family: loving;
+position: absolute;
+top:66%;
+left:52%;
+color: #9b3f5e;
+font-size:50px;
+}
+
+.rotateb {
+/* Safari */
+-webkit-transform: rotate(-10deg);
+
+/* Firefox */
+-moz-transform: rotate(-10deg);
+
+/* IE */
+-ms-transform: rotate(-10deg);
+
+/* Opera */
+-o-transform: rotate(-10deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.rotateg {
+/* Safari */
+-webkit-transform: rotate(10deg);
+
+/* Firefox */
+-moz-transform: rotate(10deg);
+
+/* IE */
+-ms-transform: rotate(10deg);
+
+/* Opera */
+-o-transform: rotate(10deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
